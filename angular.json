@@ -4,6 +4,14 @@
   "newProjectRoot": "projects",
   "projects": {
     "employee-management": {
+       "architect": {
+            "serve": {
+                "options": {
+                    "port": 4200,
+                    "host": "0.0.0.0"
+            }            
+        }
+    },
       "projectType": "application",
       "schematics": {},
       "root": "",
